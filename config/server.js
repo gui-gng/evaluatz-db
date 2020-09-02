@@ -1,4 +1,4 @@
 module.exports = ({ env }) => ({
-  host: env("HOST", "https://evaluatz-db.herokuapp.com"),
+  host: env("HOST", "0.0.0.0"),
   port: env.int("PORT", 1337)
 });
