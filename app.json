@@ -1,8 +1,8 @@
 {
-  "name": "Strapi",
-  "description": "Strapi Heroku 1 click deploy button",
+  "name": "Strapi for Evaluatz",
+  "description": "Strapi Evaluatz",
   "keywords": ["strapi", "heroku"],
-  "repository": "https://github.com/strapi/strapi-heroku-template",
+  "repository": "https://github.com/gui-gng/evaluatz-db",
   "addons": ["heroku-postgresql:hobby-dev"],
   "env": {
     "STRAPI_UUID_PREFIX": {
