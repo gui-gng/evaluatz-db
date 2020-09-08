@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players_games",
+  "info": {
+    "name": "Players_games"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "founded": {
+      "type": "date"
+    },
+    "short_name": {
+      "type": "string"
+    }
+  }
+}

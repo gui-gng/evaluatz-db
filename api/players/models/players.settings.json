@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "name": "Players"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "game": {
+      "model": "players-games"
+    },
+    "team": {
+      "model": "players-teams"
+    }
+  }
+}

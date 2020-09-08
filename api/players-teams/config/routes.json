@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/players-teams",
+      "handler": "players-teams.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/players-teams/count",
+      "handler": "players-teams.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/players-teams/:id",
+      "handler": "players-teams.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/players-teams",
+      "handler": "players-teams.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/players-teams/:id",
+      "handler": "players-teams.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/players-teams/:id",
+      "handler": "players-teams.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

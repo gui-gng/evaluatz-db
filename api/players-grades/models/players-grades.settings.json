@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players_grades",
+  "info": {
+    "name": "Players_grades"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "grade": {
+      "type": "integer"
+    },
+    "player": {
+      "model": "players"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}
