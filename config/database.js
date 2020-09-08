@@ -47,11 +47,8 @@ module.exports = ({ env }) => {
         }
       }
     };
-
-    console.log(JSON.stringify(options));
   }
 
-  console.log(JSON.stringify(options));
   return options;
 
 };
